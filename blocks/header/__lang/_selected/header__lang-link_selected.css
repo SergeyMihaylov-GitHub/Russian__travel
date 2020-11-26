@@ -1,0 +1,10 @@
+.header__lang-link_selected {
+    text-decoration: underline;
+    width: 30px;
+}
+
+@media (max-width: 544px) {
+    .header__lang-link_selected {
+      width: 22px;
+    }
+}
