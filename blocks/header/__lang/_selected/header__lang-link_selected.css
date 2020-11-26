@@ -6,5 +6,7 @@
 @media (max-width: 544px) {
     .header__lang-link_selected {
       width: 22px;
+      font-size: 18px;
+      line-height: 111%;
     }
 }
