@@ -1,0 +1,27 @@
+.intro__text {
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 163%;
+    font-style: normal;
+    margin: 0px 0px 37px 8px;
+    width: 690px;
+}
+
+@media (max-width: 1152px) { 
+    .intro__text {
+        margin-bottom: 33px;
+    } 
+}
+   
+@media (max-width: 896px) {  
+    .intro__text {
+        width: 100%;
+    }
+}
+
+@media (max-width: 544px) { 
+    .intro__text {
+        margin-bottom: 34px; 
+    }
+}

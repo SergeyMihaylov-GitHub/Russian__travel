@@ -1,0 +1,31 @@
+.intro__title {
+    color: white;
+    font-size: 54px;
+    font-weight: 900;
+    line-height: 107%;
+    font-style: normal;
+    margin: 92px 0 36px 0;
+}
+
+@media (max-width: 1152px) { 
+    .intro__title {
+        margin-bottom: 40px;
+        } 
+    }
+    
+@media (max-width: 896px) {   
+    .intro__title {
+        margin-top: 88px;
+        } 
+}
+  
+/* на разрешении 768 количество строк не соответсвует макету */
+
+@media (max-width: 544px) { 
+    .intro__title {
+        margin-top: 88px;
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 109%;
+    }
+}
