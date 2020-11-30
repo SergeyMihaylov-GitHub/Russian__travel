@@ -1,0 +1,11 @@
+.place__link {
+    grid-area: link;
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 122%;
+    text-decoration-line: underline;
+    width: 456px;
+    margin: 0px 0px 48px 0px;
+}

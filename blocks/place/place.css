@@ -1,0 +1,12 @@
+.place {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(5, auto);
+    margin-bottom: 80px;
+    grid-template-areas:
+    "title ."
+    "title url-heading"
+    "title link"
+    "image text"
+    "image text";
+}

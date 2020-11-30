@@ -1,6 +1,45 @@
 .cover {
-    background: url(../../images/cover/cover.jpg);
-    background-size: cover;
-    width: 1120px;
-    height: 800px;
+  background: url("../../images/cover/cover.jpg") no-repeat;
+  background-size: cover;
+  width: calc(100% - 48px * 2);
+  min-height: 740px;
+  margin: auto;
+  position: relative;
+}
+
+
+.cover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #2a2c2f;
+  opacity: 0.3;
+  transition: opacity 0.4s;
+}
+
+.cover:hover::before {
+  opacity: 0.8;
+}
+
+@media (max-width: 1154px) {
+  .cover {
+    min-height: 640px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 896px) {
+  .cover {
+    min-height: 480px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 544px) {
+  .cover {
+    min-height: 200px;
+  }
 }

@@ -1,0 +1,26 @@
+.places {
+    width: calc(100% - 107px * 2);
+    margin: 0px auto 156px auto;
+}
+
+
+@media (max-width: 1152px) { 
+    .places {
+        width: calc(100% - 48px * 2);
+        margin: 0px auto 92px auto;
+        } 
+    }
+    
+@media (max-width: 896px) {   
+    .places {
+        width: calc(100% - 24px * 2);
+        margin: 0px auto 90x auto;
+        } 
+}
+
+@media (max-width: 544px) { 
+    .places {
+        width: 100%;
+        margin: 0px auto 66px auto;
+    }
+}
