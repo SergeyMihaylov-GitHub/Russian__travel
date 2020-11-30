@@ -10,3 +10,9 @@
     margin: 0px 40px 12px 0px;
     padding-top: 106px;
 }
+
+@media (max-width: 544px) {
+    .place__url-heading {
+      display: none;
+    }
+}

@@ -9,3 +9,13 @@
     width: 456px;
     margin: 0px 0px 48px 0px;
 }
+
+.place__link:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 544px) {
+    .place__link {
+      display: none;
+    }
+}

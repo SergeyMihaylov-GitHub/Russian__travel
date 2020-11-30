@@ -1,6 +1,13 @@
 .footer {
-    display: flex;
-    justify-content: space-between;
-    width: calc(100% - 48px * 2);
-    margin: 92px auto 24px auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1184px;
+  padding: 102px 16px 48px 16px;
+  margin: auto;
+}
+
+@media (max-width: 720px) {
+  .footer {
+    flex-direction: column;
+  }
 }

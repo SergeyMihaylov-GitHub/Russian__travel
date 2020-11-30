@@ -10,3 +10,27 @@
     "image text"
     "image text";
 }
+
+@media (max-width: 1152px) {
+    .place {
+        column-gap: 32px;
+    }
+}
+
+@media (max-width: 896px) {
+    .place {
+        column-gap: 28px;
+    }
+}
+
+@media (max-width: 720px) {
+    .place {
+      grid-template-columns: repeat(1, auto);
+      margin-bottom: 49px;
+      grid-template-areas:
+        "title"
+        "image"
+        "text";
+    }
+}
+
