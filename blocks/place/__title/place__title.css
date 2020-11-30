@@ -1,35 +1,40 @@
 .place__title {
-    color: white;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 72px;
-    line-height: 106%;
-    grid-area: title;
-    max-width: 460px;
-    margin: 0px 40px 48px 0px;
+  color: white;
+  width: 460px;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 106%;
+  margin: 0 40px 48px 0;
+  grid-area: title;
 }
 
-@media (max-width: 1152px) {
-    .place__title {
-        max-width: 440px;
-        margin-right: 32px;
-    }
+@media (max-width: 1279px) {
+  .place__title {
+    margin-right: 32px;
+    max-width: 440px;
+  }
+}
+@media (max-width: 1023px) {
+  .place__title {
+    max-width: 320px;
+    font-size: 42px;
+    line-height: 110%;
+    margin-right: 0;
+  }
 }
 
-  @media (max-width: 896px) {
-    .place__title {
-        max-width: 340px;
-        font-size: 42px;
-        line-height: 110%;
-        margin-right: 28;
-    }
+@media (max-width: 767px) {
+  .place__title {
+    font-size: 32px;
+    line-height: 109%;
+    margin: 0px auto 32px auto;
+    text-align: center;
+  }
 }
-  
-  @media (max-width: 544px) {
-    .place__title {
-        width: calc(100% - 16px * 2);
-        font-size: 32px;
-        line-height: 109%;
-        margin: 0px 16px 32px 16px;
-    }
+
+@media (max-width: 544px) {
+  .place__title {
+    width: calc(100% - 16px * 2);
+    margin-left: 16px;
+  }
 }

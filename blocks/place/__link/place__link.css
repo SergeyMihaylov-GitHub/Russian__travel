@@ -1,21 +1,22 @@
 .place__link {
-    grid-area: link;
-    color: white;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 122%;
-    text-decoration-line: underline;
-    width: 456px;
-    margin: 0px 0px 48px 0px;
+  color: white;
+  font-size: 18px;
+  line-height: 122%;
+  text-decoration: underline;
+  font-weight: normal;
+  transition: opacity 0.3s;
+  align-self: end;
+  margin-bottom: 48px;
+  grid-area: link;
+  justify-self: start;
 }
 
 .place__link:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
-@media (max-width: 544px) {
-    .place__link {
-      display: none;
-    }
+@media (max-width: 767px) {
+  .place__link {
+    display: none;
+  }
 }

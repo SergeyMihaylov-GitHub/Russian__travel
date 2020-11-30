@@ -1,18 +1,16 @@
 .place__url-heading {
-    color: #AAAAAA;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 100%;
-    letter-spacing: 0.2em;
-    grid-area: url-heading;
-    width: 456px;
-    margin: 0px 40px 12px 0px;
-    padding-top: 106px;
+  color: #AAAAAA;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 0px 0px 12px 0px;
+  grid-area: url;
 }
 
-@media (max-width: 544px) {
-    .place__url-heading {
-      display: none;
-    }
+@media (max-width: 767px) {
+  .place__url-heading {
+    display: none;
+  }
 }

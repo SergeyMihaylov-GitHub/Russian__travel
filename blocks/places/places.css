@@ -1,26 +1,24 @@
 .places {
-    width: calc(100% - 107px * 2);
-    margin: 0px auto 156px auto;
+    width: calc(100% - 148px * 2);
+    margin: 92px auto 0 auto;
 }
-
-
-@media (max-width: 1152px) { 
+  
+@media (max-width: 1279px) {
     .places {
-        width: calc(100% - 48px * 2);
-        margin: 0px auto 92px auto;
-        } 
+      width: calc(100% - 48px * 2);
     }
-    
-@media (max-width: 896px) {   
-    .places {
-        width: calc(100% - 24px * 2);
-        margin: 0px auto 90x auto;
-        } 
 }
-
-@media (max-width: 544px) { 
+  
+@media (max-width: 1023px) {
     .places {
-        width: 100%;
-        margin: 0px auto 66px auto;
+      width: calc(100% - 24px * 2);
+      margin-top: 88px;
+    }
+}
+  
+@media (max-width: 767px) {
+    .places {
+      width: 100%;
+      margin-top: 64px;
     }
 }
