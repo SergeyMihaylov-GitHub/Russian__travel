@@ -1,6 +1,6 @@
 .place__title {
   color: white;
-  width: 460px;
+  max-width: 460px;
   font-size: 72px;
   font-weight: 900;
   line-height: 106%;
@@ -36,5 +36,6 @@
   .place__title {
     width: calc(100% - 16px * 2);
     margin-left: 16px;
+    text-align: left;
   }
 }

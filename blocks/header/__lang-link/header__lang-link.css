@@ -1,6 +1,4 @@
 .header__lang-link {
-    width: 29px;
-    height: 28px;
     color: white;
     font-size: 24px;
     font-style: normal;
@@ -21,8 +19,6 @@
 
 @media (max-width: 544px) {
     .header__lang-link {
-      width: 22px;
-      height: 20px;
       font-size: 18px;
       line-height: 111%;
     }

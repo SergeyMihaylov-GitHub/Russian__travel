@@ -2,6 +2,9 @@
 Проектная работа №3 
 на курсе Web-разработчик от Яндекс.Практикум
 
+## GitHub Pages 
+https://sergeymihaylov-github.github.io/Russian__travel/
+
 ## Инструмент
 * HTML
 * CSS

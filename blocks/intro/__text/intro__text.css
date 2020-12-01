@@ -5,23 +5,26 @@
     line-height: 163%;
     font-style: normal;
     margin: 0px 0px 37px 8px;
-    width: 690px;
+    max-width: 690px;
 }
 
 @media (max-width: 1152px) { 
     .intro__text {
         margin-bottom: 33px;
+        margin-left: 0px;
     } 
 }
    
 @media (max-width: 896px) {  
     .intro__text {
+        margin-left: 0px;
         width: 100%;
     }
 }
 
 @media (max-width: 544px) { 
     .intro__text {
+        margin-left: 0px;
         margin-bottom: 34px; 
     }
 }

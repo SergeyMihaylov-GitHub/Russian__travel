@@ -10,7 +10,7 @@
   
 }
 
-@media (max-width: 720px) {
+@media (max-width: 767px) {
   .footer__copyright {
     padding-top: 48px;
     padding-left: 0px;
