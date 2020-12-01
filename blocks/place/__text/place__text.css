@@ -1,12 +1,17 @@
 .place__text {
   grid-area: text;
-  color: white;
 }
-
 
 @media (max-width: 767px) {
   .place__text {
+    margin-left: 16px;
+    margin-top: 16px;
+  }
+}
+
+@media (max-width: 420px) {
+  .place__text {
     width: calc(100% - 16px * 2);
-    margin: 0 16px 0 16px;
+    margin-top: 32px;
   }
 }

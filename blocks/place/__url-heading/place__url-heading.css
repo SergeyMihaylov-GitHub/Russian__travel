@@ -1,11 +1,11 @@
 .place__url-heading {
-  color: #AAAAAA;
   font-size: 12px;
   line-height: 100%;
   letter-spacing: 2.4px;
   text-transform: uppercase;
-  font-weight: 400;
-  margin: 0px 0px 12px 0px;
+  font-weight: normal;
+  color: #aaaaaa;
+  margin: 0 0 12px 0;
   grid-area: url;
 }
 

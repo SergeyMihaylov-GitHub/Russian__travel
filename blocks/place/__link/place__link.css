@@ -1,9 +1,9 @@
 .place__link {
-  color: white;
   font-size: 18px;
   line-height: 122%;
   text-decoration: underline;
   font-weight: normal;
+  color: white;
   transition: opacity 0.3s;
   align-self: end;
   margin-bottom: 48px;
