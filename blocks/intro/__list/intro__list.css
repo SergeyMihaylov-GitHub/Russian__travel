@@ -9,3 +9,9 @@
     padding: 0px;
     width: 690px;
 }
+
+@media (max-width: 767px) {
+    .intro__list {
+      width: 100%;
+    }
+}
