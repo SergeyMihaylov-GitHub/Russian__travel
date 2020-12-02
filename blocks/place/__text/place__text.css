@@ -2,16 +2,11 @@
   grid-area: text;
 }
 
-@media (max-width: 767px) {
-  .place__text {
-    margin-left: 16px;
-    margin-top: 16px;
-  }
-}
 
-@media (max-width: 420px) {
+
+@media (max-width: 700px) {
   .place__text {
     width: calc(100% - 16px * 2);
-    margin-top: 32px;
+    margin: 32px 16px 0px 16px;
   }
 }

@@ -2,4 +2,5 @@
     margin: auto;
     background-color: #2a2c2f;
     overflow-x: hidden;
+    overflow: overlay;
 }

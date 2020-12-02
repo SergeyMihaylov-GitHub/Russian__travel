@@ -1,8 +1,8 @@
 .place__title {
-  max-width: 460px;
+  width: 460px;
   font-size: 72px;
   line-height: 106%;
-  color: #ffffff;
+  color: white;
   font-weight: 900;
   margin: 0 40px 48px 0;
   grid-area: title;
@@ -19,7 +19,7 @@
     max-width: 320px;
     font-size: 42px;
     line-height: 110%;
-    margin-right: 0;
+    margin-right: 0px;
   }
 }
 
@@ -32,9 +32,8 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 700px) {
   .place__title {
     width: calc(100% - 16px * 2);
-    margin-left: 16px;
   }
 }

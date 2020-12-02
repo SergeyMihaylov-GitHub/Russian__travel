@@ -3,14 +3,12 @@
   line-height: 163%;
   color: white;
   font-weight: normal;
-  font-style: normal;
   margin: 0px;
 }
 
 .place__paragraph:not(:last-child) {
   margin-bottom: 26px;
 }
-
 @media (max-width: 1023px) {
   .place__paragraph {
     font-size: 16px;
